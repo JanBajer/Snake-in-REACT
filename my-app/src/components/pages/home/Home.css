@@ -1,0 +1,75 @@
+.flipCard{
+    position:absolute;
+}
+.flipCard .card{
+    width:150px;
+    height:175px;
+    position:relative;
+    background-color:transparent;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    color:black;
+    font-size: 150%;
+}
+
+.flipCard .card:hover{
+    transform:rotateY(180deg);
+    cursor:pointer;
+}
+
+.flipCard .front, .back{
+    height:100%;
+    width:100%;
+    background: #fff;
+    padding-top:10px;
+    position:absolute;
+    border-radius:10px;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.flipCard .front{
+    background: rgb(246,246,246);
+    background: linear-gradient(90deg,
+     rgba(246,246,246,0.3) 0%,
+      rgba(246,246,246,0.3) 62%,
+       rgba(228,228,228,0.3) 100%);
+}
+.flipCard .front img{
+    opacity: 0.5;
+}
+
+.flipCard .card .img{
+    width: 75px;
+    height:75px;
+}
+.flipCard .card .back img{
+    border-radius: 50%;
+}
+.flipCard .card .back .textInCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flipCard .back{
+    transform: rotateY(180deg);
+    background:rgb(202, 202, 202);
+}
+
+.homeButtonStyle{
+    padding: 0.5em;
+    color: white;
+    font-size: 3em;
+    margin: 0.2em;
+    display: flex;
+    justify-Content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
