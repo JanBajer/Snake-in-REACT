@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Snake-in-REACT/static/css/main.3e2bf4a6.css",
+    "main.js": "/Snake-in-REACT/static/js/main.784d6f54.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Snake-in-REACT/static/js/787.28cb0dcd.chunk.js",
+    "static/media/sadPianoMusic.mp3": "/Snake-in-REACT/static/media/sadPianoMusic.5fc23e82a3ee4235ba6a.mp3",
+    "static/media/snake.png": "/Snake-in-REACT/static/media/snake.c22b22a4ffb92f749fee.png",
+    "static/media/profilepicture.jpg": "/Snake-in-REACT/static/media/profilepicture.4bae8ad3af479401c89d.jpg",
+    "static/media/linkedin.png": "/Snake-in-REACT/static/media/linkedin.f3a8601d20771e4596c6.png",
+    "static/media/eating.mp3": "/Snake-in-REACT/static/media/eating.66eeaa8051b81f8d2e87.mp3",
+    "static/media/logo.svg": "/Snake-in-REACT/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Snake-in-REACT/index.html",
+    "main.3e2bf4a6.css.map": "/Snake-in-REACT/static/css/main.3e2bf4a6.css.map",
+    "main.784d6f54.js.map": "/Snake-in-REACT/static/js/main.784d6f54.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Snake-in-REACT/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e2bf4a6.css",
+    "static/js/main.784d6f54.js"
+  ]
+}
