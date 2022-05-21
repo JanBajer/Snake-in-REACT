@@ -4,6 +4,7 @@ School for project - first experience with REACT
 Live demo using github pages: 
 https://janbajer.github.io/Snake-in-REACT/
 
+
 Postup:
 - Nejdříve jsem hru udělal v plain javascriptu. V 8. týdnu jsem se rozhodl, že bych se mohl naučit React, tak jsem to předělal, nicméně spíše mi to přineslo více starostí. Například v JS je několik návodu jak pracovat s history API, nicméně k Reactu jsem našel pouze návody kde se používá useHistory(), což teď už v nové verzi není podporováno a místo toho je nový hook, s kterým se mi to úplně nepodařilo. V kódu je několik komentů.
 - Používám bootstrap pro CSS a některé componenty
